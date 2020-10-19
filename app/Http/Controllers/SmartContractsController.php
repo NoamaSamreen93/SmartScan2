@@ -54,7 +54,7 @@ class SmartContractsController extends Controller
 
         /*$txl =  Storage::disk('txl')->get('DOSTXL2.exe');
         $scut = Storage::disk('txl')->get('SCUT.sol');*/
-        $process = new Process(['txlexec.exe', '-v' , 'SCUT.sol']);
+        $process = new Process(['/app/public/txlexeclinux.x', '-v' , 'SCUT.sol']);
             $process->run();
 
         if (!$process->isSuccessful()) {
