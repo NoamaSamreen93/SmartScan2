@@ -1,0 +1,1 @@
+Scanned Contract: FairDare    VULNERABILITY - IN function () external payable; VULNERABILITY - IN function withdraw () public;
